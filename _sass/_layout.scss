@@ -263,3 +263,12 @@ html {
         }
     }
 }
+
+@media screen and (max-width: 450px){
+    #imgContainer{
+
+        & h1 {
+            top: 1px;
+        }
+    }
+}
