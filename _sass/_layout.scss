@@ -9,16 +9,14 @@ html {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     background-color: #111111;
-    //color: #999999;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    max-width: 800px;
-    // Positioning context for the mobile navigation icon
+    width: 800px;
+    max-width: 60%;
     position: relative;
-
 }
 
 .site-title {
@@ -42,12 +40,8 @@ html {
     .menu-icon {
         display: none;
     }
-
     .page-link {
-        //color: #999999;//darken($link-color-titel, 5%); //$text-color;
         line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
@@ -97,8 +91,42 @@ html {
         }
     }
 }
-
-
+/* the five recent comment in the left side on page
+ */
+#reCom {
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: $background-color;
+    font-size: 15px;
+    max-width: 15%;
+    margin-right: 20px;
+    & p {
+        display: block;
+        margin-top: 5px;
+        & a:first-child {
+           display: block;
+            text-align: center;
+            font-size: 15px;
+        }
+        & a:last-child{
+            display: block;
+            position: relative;
+            top: -20px;
+            text-align:center;
+        }
+    }
+    & li {
+        border:solid;
+        margin-left: -20px;
+        margin-right: 10px;
+        background-color: $grey-color;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+}
 
 /**
  * Site footer
@@ -107,7 +135,8 @@ html {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     background-color: #111111;
-    max-width: 800px;
+    width: 800px;
+    max-width: 60%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: auto;
@@ -119,14 +148,12 @@ html {
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
-
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
-
 }
 
 .footer-col-wrapper {
@@ -186,16 +213,14 @@ html {
 .page-content {
     padding: $spacing-unit 0;
     background-color: #999999;
-    max-width: 800px;
+    width: 800px;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 .page-heading {
     font-size: 20px;
-
 }
 
 .post-list {
@@ -216,7 +241,9 @@ html {
     display: block;
     font-size: 24px;
 }
-
+.course1, .course2, .course3{
+    display: block;
+}
 
 
 /**
@@ -263,10 +290,17 @@ html {
         }
     }
 }
+@media screen and (max-width: 850px){
+    #reCom {
+        display: none;
+    }
+    .page-content, .site-footer, .site-header{
+        max-width: 100%;
+    }
+}
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 670px){
     #imgContainer{
-
         & h1 {
             top: 1px;
         }
