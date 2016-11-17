@@ -1,11 +1,18 @@
 ---
 layout: page
-title: About
+title: Om mig
 permalink: /about/
 ---
+![batman](../files/images/keith_fast.jpg)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Jag är en liten prick på 30 år, kommer från Tenhult en liten by söder om Jönköping-Huskvarna. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+När jag var liten så ville jag bli kemist så därför gick jag NV programmet med inriktning kemi på gymnasiet. Som tur 
+var så fick vi lägga till några kurser i åk 2 och 3 däribland så valde jag programmering. Jag var helt såld, betygen i 
+dom andra ämnerna sjönk som en sten men jag lyckades göra spelet "snake" på miniräknaren.
+ 
+Efter skolan så gjorde jag lumpen och därefter så tog jag ett "sabbatdecenium". Under åren så har jag haft lite andra
+hobbies än programmering såsom två underbara barn och en fru, för många bilar och ett hus.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Mitt mål med denna utbildningen är att byta arbetsinriktning då jag jobbar som betong arbetare och efter tio år så har 
+kroppen har sagt upp sig och jag söker lite lugnare kroppsarbete. 
