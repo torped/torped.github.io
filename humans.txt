@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /humans.txt/
+---
+/* TEAM */
+Your title: Keith Fast
+Site: keith_fast@hotmail.com
+Location: Huskvarna, Sweden.
+
+/* THANKS */
+Name: Johan, John, Mats och Jacob @ Linné University Kalmar, mentors
+
+/* SITE */
+Last update: 2016/11/18
+Standards: HTML5, CSS3
+Components: HTML5, CSS3, Jekyll
+Software: Webstorm, VirtualBox, Vagrant, Git.

@@ -3,7 +3,7 @@ layout: page
 title: Om mig
 permalink: /about/
 ---
-![batman](../files/images/keith_fast.jpg)
+![batman]({{ site.baseurl }}/files/images/keith_fast.jpg)
 
 Jag är en liten prick på 30 år, kommer från Tenhult en liten by söder om Jönköping-Huskvarna. 
 
