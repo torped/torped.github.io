@@ -13,7 +13,7 @@ permalink: /blog/
       <ul>
         <li><h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2></li>
         <a class="comments" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
-          <div class="count-comments" data-disqus-identifier="{{post.url}}"></div>{{ post.title }}</a>
+          <div class="count-comments" data-disqus-identifier="http://torped.github.io/{{post.url}}"></div>{{ post.title }}</a>
       </ul>
     {% endfor %}
   </ul>
