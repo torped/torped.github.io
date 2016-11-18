@@ -9,4 +9,4 @@ for(let i = 0; i < pdfDir.length; i += 1) {
     fileName = document.createTextNode(fileName)
     pdfDir[i].textContent = ""
     pdfDir[i].appendChild(fileName);
-}},2000);
+}},1000);
