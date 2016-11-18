@@ -12,8 +12,8 @@ permalink: /blog/
     <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></li>
       <ul>
         <li><h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2></li>
-        <a class="comments" href="{{ post.url | prepend: site.baseurl }}&#disqus_thread">
-          <div class="count-comments" data-disqus-identifier="http://torped.github.io/{{post.url}}"></div>{{ post.title }}</a>
+        <a class="comments" href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="http://torped.github.io/{{post.url}}">
+          {{ post.title }}</a>
       </ul>
     {% endfor %}
   </ul>
