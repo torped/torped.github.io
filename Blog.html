@@ -14,7 +14,7 @@ comments: true
       <ul>
         <li><h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2></li>
         <a class="comments" href="{{ post.url | prepend: site.baseurl }}#disqus_thread" >
-          <div class="count-comments" href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{site.baseurl}}{{post.url}}"></div></a>
+          <div class="count-comments" href="{{ post.url | prepend: site.baseurl }}" data-disqus-url="{{site.baseurl}}{{post.url}}"></div></a>
       </ul>
     {% endfor %}
   </ul>
