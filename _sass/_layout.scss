@@ -28,7 +28,7 @@ html {
     color: #999999;
     &,
     &:visited {
-        //color: #999999;//$grey-color-dark;
+
     }
 
 }
@@ -204,7 +204,10 @@ html {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
+.count-comments{
+    border: solid;
+    height: 20px;
+}
 
 
 /**
@@ -224,24 +227,27 @@ html {
 }
 
 .post-list {
+    display: inline-block;
     margin-left: 0;
     list-style: none;
-
+    color: $text-color;
     > li {
         margin-bottom: $spacing-unit;
+        height: 0;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $text-color;
 }
 
 .post-link {
     display: block;
+    position: relative;
     font-size: 24px;
 }
-.course1, .course2, .course3{
+.course {
     display: block;
 }
 

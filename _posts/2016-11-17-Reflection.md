@@ -2,7 +2,7 @@
 layout: post
 title:  "Reflektion"
 date:   2016-11-17 12:35:40
-categories: jekyll update
+categories: examination
 ---
 <li><h1>Vad är dina tankar om static site generators?</h1> 
 <ul><li><p>Jämfört med vanlig CSS</p></li>

@@ -4,45 +4,15 @@ title: Kurser
 permalink: /kurser/
 ---
 
-<h1>Pågående kurser</h1>
+<h1>Kursplaner åk1 - Utveckling och drift av mjukvarusystem</h1>
 
 {% for file in site.static_files %}
-{% assign  pageurl = {{site.baseurl}}/files/pdf/doing/ | replace: 'index.html', '' %}
+{% assign  pageurl = {{site.baseurl}}/files/pdf | replace: 'index.html', '' %}
 {% if file.path contains pageurl %}
 {% if file.extname == '.pdf' %}
-<a class="course1" href="{{file.path}}">{{file.path}}</a>
+<a class="course" href="{{file.path}}">{{file.path}}</a>
 {% endif %}
 {% endif %}
 {% endfor %}
 
-<h1>Avklarade kurser</h1>
-{% for file in site.static_files %}
-{% assign  pageurl = {{site.baseurl}}/files/pdf/done/ | replace: 'index.html', '' %}
-{% if file.path contains pageurl %}
-{% if file.extname == '.pdf' %}
-<a class="course2" href="{{file.path}}">{{file.path}}</a>
-{% endif %}
-{% endif %}
-{% endfor %}
 
-<h1>Uppkommande kurser</h1>
-
-{% for file in site.static_files %}
-{% assign  pageurl = {{site.baseurl}}/files/pdf/later/ | replace: 'index.html', '' %}
-{% if file.path contains pageurl %}
-{% if file.extname == '.pdf' %}
-<a class="course3" href="{{file.path}}">{{file.path}}</a>
-{% endif %}
-{% endif %}
-{% endfor %}
-
-<script>
-  let pdfDir = document.querySelectorAll(".course1");
-  for(let i = 0; i < pdfDir.length; i += 1) {
-      let fileName = pdfDir[i].textContent;
-      fileName = fileName.substring(fileName.lastIndexOf("/") + 1, fileName.length);
-      fileName = document.createTextNode(fileName)
-      pdfDir[i].textContent = ""
-      pdfDir[i].appendChild(fileName);
-  }
-</script>
